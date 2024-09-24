@@ -1,0 +1,106 @@
+h1 {
+    font-size: 40pt;
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    font-size: 25pt;
+    text-align: center;
+}
+body {
+    align-items: center;
+    color: white;
+    font-family: Lucida Sans;
+    background-image: url(beach.jpg);
+}
+
+img {
+    height: 15%;
+    width: 20%;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    
+}
+
+body > div {
+    align-items: center;
+    object-position: 50% 50%;
+    font-family: Lucida Sans;
+}
+
+table, th, td {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Lucida Sans;
+    font-size: 20pt;
+    color: rgb(167, 68, 84);
+    width: 80%;
+    border-color: black;
+    border-collapse: collapse;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+tr:nth-child(1) {
+    font-weight: bold;
+    background-color: black;
+}
+
+tr:nth-child(even) {
+    background-color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: lightblue;
+}
+
+li {
+    font-size: 20pt;
+}
+
+a {
+    color: rgb(167, 68, 84)
+}
+
+a:hover {
+    color:aqua;
+}
+
+.education {
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    color: white;
+}
+
+.hobbies {
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.723);
+    color: rgb(167, 68, 84)
+}
+
+.back {
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 50%;
+    padding: 10px;
+    height: fit-content;
+    width: fit-content;
+    
+}
+
+span {
+    color:red;
+    font-weight: bold;
+}
+
